@@ -1,13 +1,16 @@
 # Dynamic eCommerce Website on AWS
 This repository contains the deployment scripts and reference architecture for a dynamic eCommerce website hosted on AWS. This project utilizes various AWS services to ensure high availability, scalability, and security.
 
+
 ## Project Overview
 The dynamic eCommerce website is hosted in a highly available and scalable infrastructure setup on AWS. The architecture is designed to leverage multiple AWS services to provide an optimized, fault-tolerant solution with secure connectivity and automated management.
 
 ## Architecture Diagram
 Refer to the architecture diagram in the diagrams folder for a visual overview of the deployment.
 
+
 ## AWS Resources and Configuration
+
 
 **1. Virtual Private Cloud (VPC)**
 Configured a VPC with both public and private subnets across two Availability Zones to ensure network isolation and resilience.
@@ -51,6 +54,7 @@ Registered the domain name and configured DNS records using Amazon Route 53.
 **14. Amazon S3**
 Used S3 to store and manage application code and other assets.
 
+
 ## Getting Started
 To set up this project in your own AWS environment, follow these steps:
 
@@ -60,6 +64,7 @@ Copy code
 git clone <repository-url>
 cd <repository-directory>
 
+
 ***AWS Configuration:***
 Ensure your AWS CLI is configured with appropriate credentials and permissions.
 Update the variables in the deployment scripts as necessary for your AWS setup.
@@ -67,8 +72,10 @@ Update the variables in the deployment scripts as necessary for your AWS setup.
 ***Run Deployment Scripts:***
 Execute the deployment scripts in the scripts folder to provision the AWS resources and deploy the application.
 
+
 ## Monitoring and Alerts
 The system uses AWS SNS to send notifications related to Auto Scaling activities. You can customize alert thresholds and notification preferences based on your monitoring requirements.
+
 
 ## Additional Information
 For further details on each AWS service used in this architecture, refer to the AWS documentation linked below:
@@ -76,6 +83,7 @@ Amazon VPC
 Amazon EC2
 Amazon Route 53
 Amazon S3
+
 
 ## License
 This project is licensed under the MIT License. See LICENSE for more information.
