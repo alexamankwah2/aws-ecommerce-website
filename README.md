@@ -1,3 +1,5 @@
+![Alt text](/3._Host_a_Dynamic_Web_App_on_AWS.png)
+
 # Dynamic eCommerce Website on AWS
 This repository contains the deployment scripts and reference architecture for a dynamic eCommerce website hosted on AWS. This project utilizes various AWS services to ensure high availability, scalability, and security.
 
